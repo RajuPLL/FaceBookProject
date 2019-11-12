@@ -32,6 +32,7 @@ public class FacebookLoginPage extends AbstractPageObject {
 	public void logOut() {
 		
 		driver.findElement(this.settings).click();
+		// modified the function
 		driver.findElement(this.logOut).click();
 	}
 
